@@ -3,7 +3,21 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  // API URLs
+  api_base_url: 'http://localhost:5019',
+  api_ski_tours_path: '/ski_touring',
+  api_tests_path: '/test',
+
+  // Account links
+  github_url: 'https://github.com/hyanton',
+  instagram_url: 'https://www.instagram.com/antonyjchenry/',
+
+  // Logo urls
+  github_logo_path: '/assets/img/logo/github_logo.png',
+  instagram_logo_path: '/assets/img/logo/instagram_white_logo.png'
+
 };
 
 /*

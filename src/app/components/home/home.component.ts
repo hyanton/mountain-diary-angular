@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  bg_image_path: string = '/assets/img/home_background.jpg';
 
-  constructor() { }
+  constructor() {  
+  }
 
   ngOnInit(): void {
   }

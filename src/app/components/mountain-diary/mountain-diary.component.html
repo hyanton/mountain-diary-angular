@@ -1,1 +1,6 @@
-<p>mountain-diary works!</p>
+<div class="container-fluid">
+    <p class="text-white">Welcome to my mountain diary!</p>
+    <div class="card-columns">
+        <app-ski-tour *ngFor='let ski_tour of ski_tours' [data]='ski_tour'></app-ski-tour>
+    </div>
+</div>

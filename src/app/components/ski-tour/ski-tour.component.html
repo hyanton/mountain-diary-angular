@@ -1,0 +1,11 @@
+<div class="card border-light" style="width: 18rem;">
+    <a [routerLink]="['/ski_tour', data.id]" style="text-decoration: none;">
+        <img class="card-img-top" src="/assets/img/ski_tour.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{data.summit_name}}</h5>
+            <h6 class="card-subtitle mb-2">{{data.region}} <br> {{data.date}}</h6>
+            <p class="card-text">{{data.activity_type}}</p>
+            <p class="card-text">{{data.description}}</p>
+        </div>
+    </a>
+</div>
